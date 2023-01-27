@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#track-block {
+    background: rgb(125, 125, 194);
+    min-height: 100vh;
+}
+
+#track-block h1 {
+    text-align: center;
+    color: blue;
+    padding: 60px 0;
+}
+
+#track-block img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#class-box {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#class-box .student-card {
+    width: 24%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.student-card .student-info {
+    margin-top: 30px;
+}
+
+.student-info .student-name {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.student-info h5 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.student-info p {
+    font-size: 18px;
+}
